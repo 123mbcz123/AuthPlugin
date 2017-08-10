@@ -1,4 +1,4 @@
-package Top.DouJiang.Main;
+package Top.DouJiang.AuthPlugin;
 
 import Top.DouJiang.Tool.SystemTools;
 import Top.DouJiang.plugin.CommandClass;
@@ -15,12 +15,12 @@ public class AuthPlugin implements PluginMain {
 
     @Override
     public void onEnable() {
-        SystemTools.Print("[AuthPlugin]插件加载成功!",1,1);
+        SystemTools.Print("[AuthMe]插件加载成功!",1,1);
     }
 
     @Override
     public void onDisable() {
-        SystemTools.Print("[AuthPlugin]插件卸载成功!",1,1);
+        SystemTools.Print("[AuthMe]插件卸载成功!",1,1);
     }
 
 }
